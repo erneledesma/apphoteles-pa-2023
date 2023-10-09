@@ -1,0 +1,66 @@
+{
+    "hotels": [
+        [
+            {
+              "name": "Hotel Rits",
+              "image": "image_A.jpg",
+              "city": "City A",
+              "id": 1
+            },
+            {
+              "name": "Hotel B",
+              "image": "image_B.jpg",
+              "city": "City B",
+              "id": 2
+            },
+            {
+              "name": "Hotel C",
+              "image": "image_C.jpg",
+              "city": "City C",
+              "id": 3
+            },
+            {
+              "name": "Hotel D",
+              "image": "image_D.jpg",
+              "city": "City D",
+              "id": 4
+            },
+            {
+              "name": "Hotel E",
+              "image": "image_E.jpg",
+              "city": "City E",
+              "id": 5
+            },
+            {
+              "name": "Hotel F",
+              "image": "image_F.jpg",
+              "city": "City F",
+              "id": 6
+            },
+            {
+              "name": "Hotel G",
+              "image": "image_G.jpg",
+              "city": "City G",
+              "id": 7
+            },
+            {
+              "name": "Hotel H",
+              "image": "image_H.jpg",
+              "city": "City H",
+              "id": 8
+            },
+            {
+              "name": "Hotel I",
+              "image": "image_I.jpg",
+              "city": "City I",
+              "id": 9
+            },
+            {
+              "name": "Hotel J",
+              "image": "image_J.jpg",
+              "city": "City J",
+              "id": 10
+            }
+          ]
+    ]
+}
