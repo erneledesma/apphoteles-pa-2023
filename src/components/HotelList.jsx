@@ -1,8 +1,9 @@
-import { Card, Stack, Typography, Link, CardMedia, CardContent } from "@mui/material";
+import { Link } from "wouter"
 import { useQuery } from "@tanstack/react-query";
+import { Card, Stack, Typography, CardMedia, CardContent } from "@mui/material";
 
 const fetchHotels =  async () => {
-    const res  =  await fetch('htpp://localhost:3000/hotels')
+    const res  =  await fetch('http://localhost:3000/hotels')
     if(!res.ok) {
         throw new Error('Network response was not ok')
     }
@@ -10,15 +11,20 @@ const fetchHotels =  async () => {
     return res.json()
 }
 
-function HotelList() {
+const HotelList = () =>  {
         const {
             data: hotels,
             isLoading,
             isError,
         }
          = useQuery({ queryKey: ['hotels'], queryFn: fetchHotels})
-        if(isLoading) return <div>Loading...</div>
-        if(isError) return <div>Error</div>
+        if(isLoading) {
+            return <div>Loading...</div>
+        }
+        if(isError) {
+         return <div>Error</div>
+        }
+
         return (
             <>
               <Typography variant="h4" component="h1" gutterBottom>
@@ -26,8 +32,8 @@ function HotelList() {
                 </Typography>
 
             <Stack spacing={2}>
-                {hotels.map((hotel) => (
-                    <Link key={hotel.id} to={`/hotel/${hotel.id}`}>
+                { hotels.map((hotel) => (
+                    <Link key={hotel.id} href={`/hotel/${hotel.id}`}>
                     <Card sx={{ maxWidth: 345, backgroundColor: "#eBeBeB" }}>
                         <CardMedia
                             component="img"
@@ -49,6 +55,6 @@ function HotelList() {
             </Stack>
             </>
         )
-
-
 }
+
+export default HotelList

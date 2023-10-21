@@ -1,66 +1,39 @@
 {
     "hotels": [
-        [
             {
               "name": "Hotel Rits",
-              "image": "image_A.jpg",
+              "image": "/image/2ef5d64b_y.png",
               "city": "City A",
-              "id": 1
+              "id": 1,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nunc nec nisl. Sed euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nunc nec nisl."
             },
             {
               "name": "Hotel B",
-              "image": "image_B.jpg",
+              "image": "/image/2ef5d64b_y.png",
               "city": "City B",
-              "id": 2
+              "id": 2,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nunc nec nisl. Sed euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nunc nec nisl."
             },
             {
               "name": "Hotel C",
-              "image": "image_C.jpg",
+              "image": "/image/2ef5d64b_y.png",
               "city": "City C",
-              "id": 3
+              "id": 3,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nunc nec nisl. Sed euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nunc nec nisl."
             },
             {
               "name": "Hotel D",
-              "image": "image_D.jpg",
+              "image": "/image/2ef5d64b_y.png",
               "city": "City D",
-              "id": 4
+              "id": 4,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nunc nec nisl. Sed euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nunc nec nisl."
             },
             {
               "name": "Hotel E",
-              "image": "image_E.jpg",
+              "image": "/image/2ef5d64b_y.png",
               "city": "City E",
-              "id": 5
-            },
-            {
-              "name": "Hotel F",
-              "image": "image_F.jpg",
-              "city": "City F",
-              "id": 6
-            },
-            {
-              "name": "Hotel G",
-              "image": "image_G.jpg",
-              "city": "City G",
-              "id": 7
-            },
-            {
-              "name": "Hotel H",
-              "image": "image_H.jpg",
-              "city": "City H",
-              "id": 8
-            },
-            {
-              "name": "Hotel I",
-              "image": "image_I.jpg",
-              "city": "City I",
-              "id": 9
-            },
-            {
-              "name": "Hotel J",
-              "image": "image_J.jpg",
-              "city": "City J",
-              "id": 10
+              "id": 5,
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nunc nec nisl. Sed euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam nisl nunc nec nisl."
             }
           ]
-    ]
 }
